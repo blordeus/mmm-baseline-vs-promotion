@@ -2,7 +2,7 @@
 
 **Tools Used:** Power Query (M) | Power BI | DAX
 **Data:** Weekly marketing spend dataset — 104 weeks (Sept 2023–Sept 2025), spend across Facebook, Google, TikTok, Instagram, and Snapchat, plus a promotions flag, pricing, email/SMS volume, and revenue
-**Links:** [Download the .pbix file](#) · [Dashboard PDF export](#) *(add once exported)*
+**Links:** [Download the .pbix file](mmm-baseline-vs-promotion.pbix) · [Dashboard PDF export](mmm-baseline-vs-promotion.pdf) · [Full repo](https://github.com/blordeus/mmm-baseline-vs-promotion)
 
 ## The Question That Changed
 
@@ -40,8 +40,9 @@ Revenue per Dollar Spent = DIVIDE([Total Revenue], [Total Ad Spend], 0)
 
 **Deep Dive** — the lag-category table (testing for delayed promotional lift), a per-channel spend-concentration matrix, and a plain-text callout on two ruled-out alternative explanations.
 
-*[Insert Executive Summary screenshot]*
-*[Insert Deep Dive screenshot]*
+![Executive Summary page: Total Ad Spend, Total Revenue, and Revenue per Dollar Spent KPI cards, with a table titled "Baseline Spend Delivers 3x the Revenue Share of Promotional Spend" comparing % of Spend to % of Revenue by Week Type](mmm-baseline-vs-promotion-1.png)
+
+![Deep Dive page: a lag-category table titled "No Delayed Payoff — Post-Promo Weeks Don't Recover," a per-channel matrix titled "TikTok Spend Is Most Concentrated in Promo Weeks," and a text callout on ruled-out pricing and email/SMS explanations](mmm-baseline-vs-promotion-2.png)
 
 ## Key Insights
 
